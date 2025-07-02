@@ -4,6 +4,7 @@ from selenium.webdriver.common.by import By
 
 class LoginPage:
     textbox_username_id = "Email"
+
     textbox_password_id = "Password"
     button_login_xpath = "//button[normalize-space()='Log in']"
     link_logout_linktext = "Logout"
