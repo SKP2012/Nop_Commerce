@@ -30,5 +30,5 @@ class LoginPage:
         self.driver.find_element(By.XPATH,self.button_login_xpath).click()
 
     def clickLogout(self):
-
         self.driver.find_element(By.LINK_TEXT,self.link_logout_linktext).click()
+        #Shubham
